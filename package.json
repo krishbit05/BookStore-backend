@@ -1,0 +1,28 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishbit05/Book-Store.git"
+  },
+  "author": "krish-kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishbit05/Book-Store/issues"
+  },
+  "homepage": "https://github.com/krishbit05/Book-Store#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2"
+  }
+}
