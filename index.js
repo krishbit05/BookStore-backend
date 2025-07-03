@@ -5,13 +5,15 @@ import bookRouter from "./routes/book.route.js"
 import userRouter from "./routes/user.route.js"
 import cors from "cors"
 
+const cors = require("cors");
 
 const app = express();
 
 app.use(cors({
-    origin: ["https://book-store-frontend-sigma-mauve.vercel.app/"],
+    origin: ["https://book-store-frontend-sigma-mauve.vercel.app"],
     credentials: true
   }));
+
 dotenv.config();
 app.use(express.json());
 
